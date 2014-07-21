@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/fd', function(){
+	return View::make('fdtest');
+});
+
 Route::get('/', function()
 {
 	echo 'hello';
