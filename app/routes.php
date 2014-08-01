@@ -24,3 +24,7 @@ Route::get('/', function()
 	echo 'hello';
 	return View::make('hello');
 });
+
+Route::get('/model', function(){
+	return View::make('model');
+});

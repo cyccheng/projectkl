@@ -9,11 +9,11 @@
   </head>
   <body>
     <div class='nav'>
-	@yield('nav')
+		@include('includes.header')
     </div>
 
     <div class='container'>
-	@yield('content')
+		@yield('content')
     </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
