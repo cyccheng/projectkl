@@ -8,6 +8,7 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
+	@yield('bheader')
     <div class='nav'>
 		@include('includes.header')
     </div>
@@ -15,10 +16,15 @@
     <div class='container'>
 		@yield('content')
     </div>
+	
+	<div class='footer'>
+		@include('includes.footer');
+	</div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>
+	@yield('bfooter')
   </body>
 </html>

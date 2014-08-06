@@ -1,14 +1,17 @@
 @extends('layouts.fd')
 
-@section('content')
-	@include('layouts.profile.model')		
-	@section('ppic')
-		hello
-	@stop
-	@section('pconn')
-		wow
-	@stop
+@section('bheader')
+	@include('bootstrap.header')
 @stop
 
+@section('content')
+	@include('layouts.profile.model')		
+@stop
 
+@section('footer')
+	@include('includes.footer')
+@stop
 
+@section('bfooter')
+	@include('bootstrap.footer')
+@stop

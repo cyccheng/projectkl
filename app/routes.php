@@ -11,20 +11,8 @@
 |
 */
 
-Route::get('/fd', function(){
-	return View::make('fdtest');
-});
-
-Route::get('/main', function(){
-	return View::make('main');
-});
-
-Route::get('/', function()
-{
-	echo 'hello';
-	return View::make('hello');
-});
-
-Route::get('/model', function(){
-	return View::make('model');
-});
+#by KT, dynamically load files in app/routes/ that end with routes.php
+$new_route_path = __DIR__ .'/routes/';
+$o = scandir($new_route_path);
+foreach($o as $route)
+	if (substr($route, -10) == 'routes.php') include_once $new_route_path.$route;
