@@ -1,15 +1,13 @@
 @extends('layouts.fd')
 
 @section('bheader')
+	<link href=''>
+	hello
 	@include('bootstrap.header')
 @stop
 
 @section('content')
-	@include('layouts.profile.model')		
-@stop
-
-@section('css')
-	@include('includes.model.css')
+	@include('layouts.test.kt')		
 @stop
 
 @section('footer')

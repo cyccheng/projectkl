@@ -9,7 +9,6 @@
 
 	Route::get('/', function()
 	{
-		echo 'hello';
 		return View::make('hello');
 	});
 ?>

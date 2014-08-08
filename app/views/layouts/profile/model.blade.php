@@ -1,7 +1,7 @@
 <div class='row collapse'>
-	<div class='columns large-3'>@include('widget.model.ppic')</div>
-	<div class='columns large-5'>@include('widget.model.pdesc')</div>
-	<div class='columns large-4'>@include('widget.model.pconn') Some Conn</div>
+	<div class='columns large-3 small-12'>@include('widget.model.ppic')</div>
+	<div class='columns large-8 small-6'>@include('widget.model.pdesc')</div>
+	<div class='columns large-1 small-6'>@include('widget.model.pconn') Some Conn</div>
 </div>
 
 <div class='row collapse'>
