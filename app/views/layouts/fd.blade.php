@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css">
 	@yield('css')
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -23,6 +24,8 @@
 	</div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/foundation.clearing.js"></script>
     <script>
       $(document).foundation();
     </script>
