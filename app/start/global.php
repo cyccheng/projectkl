@@ -87,5 +87,6 @@ require app_path().'/filters.php';
 |--------------------------------------
 |
 */
-global $DEBUG_MODE;
+global $DEBUG_MODE, $TIME;
 $DEBUG_MODE = true;
+$TIME['START'] = microtime(true);

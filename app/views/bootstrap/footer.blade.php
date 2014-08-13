@@ -1,5 +1,5 @@
 <?php 
-	global $servJS;
+	global $servJS, $servDEBUG;
 	
 	##Google Analytic
 	$servJS->addJS("
@@ -9,7 +9,13 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-53591149-1', 'auto');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
 ");
+	
+	global $TIME;
+	$servDEBUG->beforeJS();
 	$servJS->run(true);
+	$servDEBUG->afterJS();
+	$servDEBUG->renderView();
 ?>

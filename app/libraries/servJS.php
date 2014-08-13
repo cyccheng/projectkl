@@ -20,7 +20,11 @@
 		}
 		
 		public function addJS($str){
-			$this->content[] = $str;
+			if(!is_array($str)) $this->content[] = $str;
+			else{
+				foreach($str as $s)
+					$this->content[] = $s;
+			}
 		}
 		
 		private function hasData(){
@@ -41,9 +45,11 @@
 				$s .= $this->loadLib($l);
 			
 			$s = ($new) ? '<script>' : '';
+			$s .= "\$(document).ready(function(){";
 			foreach($this->content as $v)
 				$s .= $this->loadStr($v);
 			
+			$s .= "}); ";
 			$s .= ($new) ? '</script>' : '';
 			
 			echo $s;
