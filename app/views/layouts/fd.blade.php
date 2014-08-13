@@ -6,6 +6,7 @@
     <title>Project KL | Development</title>
 	<link rel="icon" type="image/png"  href="image/favicon.png">
     <link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css">
 	@yield('css')
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -24,6 +25,8 @@
 	</div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation.js"></script>
+    <script src="js/foundation.clearing.js"></script>
     <script>
       $(document).foundation();
     </script>
