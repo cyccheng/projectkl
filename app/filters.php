@@ -19,7 +19,8 @@ App::before(function($request)
 
 App::after(function($request, $response)
 {
-	//
+	global $servDEBUG;
+	//should run $servDEBUG.save();
 });
 
 /*

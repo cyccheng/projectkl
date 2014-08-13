@@ -3,7 +3,7 @@
 	color: white;
 	width: 100%;
 	margin-top: 20px;
-	position: absolute;
+	position: fixed;
 	height: 150px;
 	left: 0;
 	bottom: 0;
@@ -24,7 +24,7 @@
 }
 
 #debugctrl{
-	position: absolute;
+	position: fixed;
 	left: 0px;
 	top: 45px;
 	display: block;
