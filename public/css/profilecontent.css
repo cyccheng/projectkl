@@ -1,0 +1,8 @@
+.p-profileinfo tr th{
+	vertical-align: top;
+	width: 20%;
+}
+
+.p-profileinfo tr td{
+	width: 80%;
+}

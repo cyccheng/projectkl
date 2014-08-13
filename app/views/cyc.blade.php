@@ -8,6 +8,10 @@
 	@include('layouts.test.cyc')		
 @stop
 
+@section('css')
+	@include('includes.model.css')
+@stop
+
 @section('footer')
 	@include('includes.footer')
 @stop

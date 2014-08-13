@@ -1,0 +1,82 @@
+.circle-pp {
+	margin-bottom: 20px;
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-position: center top;
+	background-size: cover;
+}
+
+.p-det {
+	width: 253px;
+}
+
+.p-det th {
+	font-size: 70%;
+}
+
+.p-det td {
+	font-size: 70%;
+}
+
+.p-name-job {
+	font-size: 200%;
+}
+
+.p-socialmedia {
+	border-collapse: collapse;
+	border-spacing: none;
+	border: none;
+}
+
+.p-connmsg {
+	border-collapse: collapse;
+	border-spacing: none;
+	border: none;
+}
+
+.p-socialmedia i:hover {
+	cursor: pointer;
+	color: purple;
+}
+
+.fa-facebook-square{
+	color: #4D6196;
+}
+
+.fa-tumblr-square {
+	color: #41536B;
+}
+
+.fa-twitter-square {
+	color: #2878BD;
+}
+
+.fa-instagram {
+	color: #765041;
+}
+
+.fa-youtube-play {
+	color: #D62424;
+}
+
+.p-pic td {
+	width: 200px;
+	height: 100px;
+	border: 1px solid black;
+	background-size: cover;
+}
+
+.p-connection {
+	width: 400px;
+	height: 420px;
+	border: 1px solid black;
+}
+
+.clearing-thumbs li a img{
+	width: 123px;
+	height: 100px;
+}
+
+
