@@ -23,10 +23,10 @@
 	<div class='footer'>
 		@include('includes.footer')
 	</div>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/foundation.js"></script>
-    <script src="js/foundation.clearing.js"></script>
+    <script src="/js/vendor/jquery.js"></script>
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/foundation/foundation.js"></script>
+    <script src="/js/foundation/foundation.clearing.js"></script>
     <script>
       $(document).foundation();
     </script>

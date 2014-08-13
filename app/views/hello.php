@@ -25,7 +25,7 @@
 	<p class="links">
 		<a href="#" class="li">Linked In</a>
 		<a href="#" class="tw">Twitter</a>
-		<a href="#" class="fb">Facebook</a>
+		<a href="#" class="fb">Facebo0k</a>
 	</p>
 </div>
 <script>

@@ -41,10 +41,12 @@
 		
 		public function run($new = true){
 			if (!$this->hasData()) return '';
+			$s = '';
+			$this->lib = array_unique($this->lib);
 			foreach($this->lib as $l)
 				$s .= $this->loadLib($l);
 			
-			$s = ($new) ? '<script>' : '';
+			$s .= ($new) ? '<script>' : '';
 			$s .= "\$(document).ready(function(){";
 			foreach($this->content as $v)
 				$s .= $this->loadStr($v);

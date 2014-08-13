@@ -1,13 +1,16 @@
 @extends('layouts.fd')
 
 @section('bheader')
-	<link href=''>
-	hello
 	@include('bootstrap.header')
 @stop
 
 @section('content')
-	@include('layouts.test.kt')		
+	<a class='ads' data-aid=1 href='www.google.com'>Ads URL here</a>
+	<?php
+		global $servJS;
+		$servJS->addLib('serv/ads.js');
+		$servJS->addJS("\$('a.ads').servAds() ");
+	?>
 @stop
 
 @section('footer')
