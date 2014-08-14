@@ -71,7 +71,7 @@
 .p-connection {
 	width: 400px;
 	height: 420px;
-	border: 1px solid black;
+	border: 1px solid grey;
 }
 
 .clearing-thumbs li a img{
@@ -79,4 +79,20 @@
 	height: 100px;
 }
 
+.p-feed {
+	width: 350px;
+	height: 400px;
+	border: 1px solid grey;
+}
+
+.p-insta {
+	width: 350px;
+	height: 330px;
+	border: 1px solid grey;
+}
+.p-insta img{
+	height: 80px;
+	width: 80px;
+	border-radius: 5px;
+}
 

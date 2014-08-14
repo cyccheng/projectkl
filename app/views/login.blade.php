@@ -5,7 +5,7 @@
 @stop
 
 @section('content')
-	@include('layouts.test.munsam')		
+	@include('layouts.test.login')		
 @stop
 
 @section('css')
