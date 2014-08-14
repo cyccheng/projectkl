@@ -1,0 +1,25 @@
+div#login{
+	text-align: center;
+	border: 2px solid grey;
+	padding: 10px;
+	width: 350px;
+	border-radius: 5px;
+}
+
+div#login img{
+	height: 50px;
+	width: 400px;
+	border-radius: 7px;
+}
+div#login table{
+	table-border: none;
+}
+
+
+div#signup{
+	text-align: center;
+	border: 2px solid grey;
+	padding: 10px;
+	width: 350px;
+	border-radius: 5px;
+}
