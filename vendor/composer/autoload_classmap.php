@@ -47,6 +47,8 @@ return array(
     'File_ASN1' => $vendorDir . '/phpseclib/phpseclib/phpseclib/File/ASN1.php',
     'File_ASN1_Element' => $vendorDir . '/phpseclib/phpseclib/phpseclib/File/ASN1.php',
     'File_X509' => $vendorDir . '/phpseclib/phpseclib/phpseclib/File/X509.php',
+    'Fitztrev\\LaravelHtmlMinify\\LaravelHtmlMinifyCompiler' => $vendorDir . '/fitztrev/laravel-html-minify/src/Fitztrev/LaravelHtmlMinify/LaravelHtmlMinifyCompiler.php',
+    'Fitztrev\\LaravelHtmlMinify\\LaravelHtmlMinifyServiceProvider' => $vendorDir . '/fitztrev/laravel-html-minify/src/Fitztrev/LaravelHtmlMinify/LaravelHtmlMinifyServiceProvider.php',
     'HomeController' => $baseDir . '/app/controllers/HomeController.php',
     'IlluminateQueueClosure' => $vendorDir . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
     'Illuminate\\Auth\\AuthManager' => $vendorDir . '/laravel/framework/src/Illuminate/Auth/AuthManager.php',

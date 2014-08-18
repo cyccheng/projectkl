@@ -5,6 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
+		"fitztrev/laravel-html-minify": "1.*",
 		"facebook/php-sdk": "dev-master"
 	},
 	"autoload": {
