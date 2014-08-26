@@ -1,4 +1,5 @@
 <?php
+	namespace Serv;
 	class servDEBUG{
 		private $TIME = array();
 		private $log = array();

@@ -1,4 +1,5 @@
 <?php
+	namespace Serv;
 	class servCSS{
 		private $lib = array();
 		private static $CSSPATH = "css/";
@@ -19,7 +20,9 @@
 		}
 		
 		private function loadLib($l){
-			return "<link href='$l' rel='stylesheet' type='text/css'>\n";
+			$filename = '/var/www/us.ktserv.www/htdocs/projectkl/public/'.$l;
+			if(file_exists($filename))
+				return ' '.file_get_contents('/var/www/us.ktserv.www/htdocs/projectkl/public/'.$l);
 		}
 		
 		public function run(){
@@ -28,7 +31,9 @@
 			foreach($this->lib as $l)
 				$s .= $this->loadLib($l);
 			
-			echo $s;
+			$cm = new Minify\CSSMin();
+			$s = $cm->run($s);
+			echo "<style>".$s."</style>";
 		}
 	}
 

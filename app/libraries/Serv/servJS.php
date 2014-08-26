@@ -1,4 +1,5 @@
 <?php
+	namespace Serv;
 	class servJS{
 		private $lib = array();
 		private $content = array();
@@ -47,11 +48,13 @@
 				$s .= $this->loadLib($l);
 			
 			$s .= ($new) ? '<script>' : '';
-			$s .= "\$(document).ready(function(){";
+			$t = "\$(document).ready(function(){";
 			foreach($this->content as $v)
-				$s .= $this->loadStr($v);
+				$t .= $this->loadStr($v);
 			
-			$s .= "}); ";
+			$t .= "}); ";
+			
+			$s .= Minify\JSMin::run($t);
 			$s .= ($new) ? '</script>' : '';
 			
 			echo $s;
