@@ -6,6 +6,8 @@
     <title>Project KL | Development</title>
 	<link rel="icon" type="image/png"  href="image/favicon.png">
     <link rel="stylesheet" href="css/foundation.css" />
+
+
 	<link rel="stylesheet" href="css/font-awesome-4.1.0/css/font-awesome.min.css">
 	@yield('css')
     <script src="js/vendor/modernizr.js"></script>
